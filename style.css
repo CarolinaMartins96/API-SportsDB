@@ -1,0 +1,89 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  padding: 2px;
+  margin: auto;
+}
+
+input {
+  flex-grow: 2;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+  border-color: transparent !important;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25) !important;
+}
+
+button#search-btn {
+  border: 1px solid #bfbfb3;
+  background: #bfbfb3;
+  color: black;
+  font-weight: bold;
+  box-shadow: 5px 3px #99998f;
+}
+
+.badge-primary,
+.bg-red {
+  background-color: #7d2817;
+}
+
+.btn-primary {
+  background-color: #aeaeae;
+  border-radius: 25px;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #706a6ae0;
+  border-radius: 25px;
+  border-color: transparent;
+}
+
+.btn-primary.search {
+  background-color: #aeaeae;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.fa-facebook {
+  color: #4267b2;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.bg-gray {
+  background: #80808012;
+}
+
+img:before {
+  content: "No image available";
+  display: block;
+  position: absolute;
+  height: 23px;
+  width: 91px;
+  background-image: url(/img/img-null.PNG);
+  font-size: 9px;
+  border: 1px solid black;
+  color: gray;
+  padding: 5px;
+}
+
+footer {
+  background-color: rgba(182, 182, 182, 0.493);
+  text-align: center;
+  padding: 15px;
+}

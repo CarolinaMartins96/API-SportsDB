@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>API SPORTS</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark" style="background: #7D2817;">
+      <h2 class="text-white mx-auto">Team Search</h2>
+    </nav>
+    <div class="bg-red">
+      <form>
+        <input
+          class="form-control form-control-lg"
+          type="text"
+          placeholder="Search for your team"
+          id="input"
+        />
+        <button type="button" class="btn btn-primary search" id="search-btn">
+          Search
+        </button>
+      </form>
+      <p class="text-center text-white pb-3">
+        Press enter or click the button "Search"
+      </p>
+    </div>
+    <div class="container">
+      <div class="giphy" id="giphy">
+        <center>
+          <iframe
+            src="https://giphy.com/embed/1Be2lRWp11wVLhwhyo"
+            width="480"
+            height="480"
+            frameborder="0"
+            class="giphy-embed"
+            allowfullscreen
+          ></iframe>
+        </center>
+      </div>
+      <div id="results"></div>
+    </div>
+  <footer>Carolina Martins</footer>
+
+    <script src="/app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+  </body>
+</html>
